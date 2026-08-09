@@ -1,0 +1,23 @@
+.project-gallery .project-screen {
+  --screen-bg: #85bef1;
+  --screen-wash: transparent;
+  --screen-left: url("../assets/catalog-extend-left.png");
+  --screen-right: url("../assets/catalog-extend-right.png");
+  --screen-top: url("../assets/catalog-extend-top.png");
+  --screen-bottom: url("../assets/catalog-extend-bottom.png");
+  --screen-backdrop-filter: blur(72px) saturate(0.52) brightness(1.02);
+  --screen-backdrop-opacity: 0;
+  --screen-bridge-filter: blur(4px) saturate(0.52) brightness(1.08);
+  --screen-bridge-opacity: 0.2;
+  --screen-bridge-overlay-top: rgba(246, 251, 255, 0.66);
+  --screen-bridge-overlay-bottom: rgba(237, 246, 254, 0.56);
+  --screen-fill-filter: blur(2px) saturate(0.46) brightness(1.14) contrast(0.92);
+  --screen-fill-opacity: 0.31;
+  --screen-fill-overlay-top: rgba(246, 251, 255, 0.9);
+  --screen-fill-overlay-bottom: rgba(235, 246, 254, 0.82);
+}
+
+.project-gallery .hero-image {
+  user-select: none;
+  -webkit-user-drag: none;
+}
