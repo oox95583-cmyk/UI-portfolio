@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>刘畅 UI 设计作品集</title>
+    <link rel="preload" as="image" href="./assets/cover-3200.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -14,7 +15,7 @@
         style="
           --screen-bg: #85bef1;
           --screen-wash: transparent;
-          --screen-image: url('./assets/cover.png');
+          --screen-image: url('./assets/cover-3200.png');
           --screen-left: url('./assets/catalog-extend-left.png');
           --screen-right: url('./assets/catalog-extend-right.png');
           --screen-top: url('./assets/extend-top.png');
@@ -32,7 +33,6 @@
         "
         aria-label="刘畅 UI 设计作品集首屏封面，基于提供图片按 16 比 9 比例还原"
       >
-        <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="hero-stage">
           <div class="hero-main">
             <div class="hero-fill hero-fill-left" aria-hidden="true"></div>
@@ -49,8 +49,12 @@
             </div>
             <img
               class="hero-image"
-              src="./assets/cover.png"
+              src="./assets/cover-3200.png"
+              srcset="./assets/cover-3200.png 3200w, ./assets/cover.png 5760w"
+              sizes="(min-aspect-ratio: 16/9) 177.78vh, 100vw"
               alt="2025-2026 设计作品归纳个人首屏封面"
+              decoding="async"
+              fetchpriority="high"
             />
           </div>
         </div>
@@ -77,10 +81,9 @@
           --screen-fill-opacity: 0.31;
           --screen-fill-overlay-top: rgba(246, 251, 255, 0.9);
           --screen-fill-overlay-bottom: rgba(235, 246, 254, 0.82);
-        "
+      "
         aria-label="刘畅 UI 设计作品集第二屏自我介绍，基于提供图片按 16 比 9 比例还原"
       >
-        <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="hero-stage">
           <div class="hero-main">
             <div class="hero-fill hero-fill-left" aria-hidden="true"></div>
@@ -91,8 +94,12 @@
             <div class="hero-bridge hero-bridge-right" aria-hidden="true"></div>
             <img
               class="hero-image"
-              src="./assets/about.png"
+              src="./assets/about-3200.png"
+              srcset="./assets/about-3200.png 3200w, ./assets/about.png 5760w"
+              sizes="(min-aspect-ratio: 16/9) 177.78vh, 100vw"
               alt="刘畅个人简介下一屏"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
@@ -122,7 +129,6 @@
         "
         aria-label="刘畅 UI 设计作品集第三屏目录展示，基于提供图片按 16 比 9 比例还原"
       >
-        <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="hero-stage">
           <div class="hero-main">
             <div class="hero-fill hero-fill-left" aria-hidden="true"></div>
@@ -133,8 +139,12 @@
             <div class="hero-bridge hero-bridge-right" aria-hidden="true"></div>
             <img
               class="hero-image"
-              src="./assets/catalog-v2.png"
+              src="./assets/catalog-v2-3200.png"
+              srcset="./assets/catalog-v2-3200.png 3200w, ./assets/catalog-v2.png 5760w"
+              sizes="(min-aspect-ratio: 16/9) 177.78vh, 100vw"
               alt="刘畅目录展示页"
+              loading="lazy"
+              decoding="async"
             />
             <div class="catalog-projects" aria-label="目录展示项目 hover 高亮区域">
               <a
@@ -250,7 +260,7 @@
                 preserveAspectRatio="none"
               >
                 <image
-                  href="./assets/catalog-v2.png"
+                  href="./assets/catalog-v2-3200.png"
                   width="5760"
                   height="3240"
                   filter="url(#catalog-title-blue-filter)"
@@ -279,7 +289,7 @@
                 preserveAspectRatio="none"
               >
                 <image
-                  href="./assets/catalog-v2.png"
+                  href="./assets/catalog-v2-3200.png"
                   width="5760"
                   height="3240"
                   filter="url(#catalog-title-blue-filter)"
@@ -308,7 +318,7 @@
                 preserveAspectRatio="none"
               >
                 <image
-                  href="./assets/catalog-v2.png"
+                  href="./assets/catalog-v2-3200.png"
                   width="5760"
                   height="3240"
                   filter="url(#catalog-title-blue-filter)"
@@ -337,7 +347,7 @@
                 preserveAspectRatio="none"
               >
                 <image
-                  href="./assets/catalog-v2.png"
+                  href="./assets/catalog-v2-3200.png"
                   width="5760"
                   height="3240"
                   filter="url(#catalog-title-blue-filter)"
@@ -369,10 +379,9 @@
           --screen-fill-opacity: 0.31;
           --screen-fill-overlay-top: rgba(246, 251, 255, 0.9);
           --screen-fill-overlay-bottom: rgba(235, 246, 254, 0.82);
-        "
+      "
         aria-label="刘畅 UI 设计作品集第四屏封底与联系方式，基于提供图片按 16 比 9 比例还原"
       >
-        <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="hero-stage">
           <div class="hero-main">
             <div class="hero-fill hero-fill-left" aria-hidden="true"></div>
@@ -383,8 +392,12 @@
             <div class="hero-bridge hero-bridge-right" aria-hidden="true"></div>
             <img
               class="hero-image"
-              src="./assets/back-cover-hq.png"
+              src="./assets/back-cover-hq-3200.png"
+              srcset="./assets/back-cover-hq-3200.png 3200w, ./assets/back-cover-hq.png 5760w"
+              sizes="(min-aspect-ratio: 16/9) 177.78vh, 100vw"
               alt="刘畅 UI 设计作品集封底与微信联系方式"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

@@ -35,6 +35,8 @@ body {
 
 .hero + .hero {
   margin-top: -2px;
+  content-visibility: auto;
+  contain-intrinsic-size: 100vh;
 }
 
 .hero::after {
