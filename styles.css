@@ -31,6 +31,8 @@ body {
   background: var(--screen-bg, #85bef1);
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  content-visibility: auto;
+  contain-intrinsic-size: 100vh;
 }
 
 .hero + .hero {
@@ -99,7 +101,7 @@ body {
     translate3d(var(--motion-x, 0px), var(--motion-y, 0px), 0)
     rotate(var(--motion-rotate, 0deg))
     scale(var(--motion-scale, 1));
-  will-change: transform, opacity;
+  will-change: transform;
 }
 
 .hero-motion-character {
