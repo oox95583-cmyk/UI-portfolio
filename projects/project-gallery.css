@@ -1,10 +1,10 @@
 .project-gallery .project-screen {
   --screen-bg: #85bef1;
   --screen-wash: transparent;
-  --screen-left: url("../assets/catalog-extend-left.webp");
-  --screen-right: url("../assets/catalog-extend-right.webp");
-  --screen-top: url("../assets/catalog-extend-top.webp");
-  --screen-bottom: url("../assets/catalog-extend-bottom.webp");
+  --screen-left: url("../assets/catalog-extend-left.webp?v=webp94");
+  --screen-right: url("../assets/catalog-extend-right.webp?v=webp94");
+  --screen-top: url("../assets/catalog-extend-top.webp?v=webp94");
+  --screen-bottom: url("../assets/catalog-extend-bottom.webp?v=webp94");
   --screen-backdrop-filter: blur(72px) saturate(0.52) brightness(1.02);
   --screen-backdrop-opacity: 0;
   --screen-bridge-filter: blur(4px) saturate(0.52) brightness(1.08);
